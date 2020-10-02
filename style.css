@@ -1,7 +1,6 @@
 
 body{
   background-color: pink;
-  display: grid;
 
 }
   .back {
@@ -14,6 +13,12 @@ body{
     height: 100%;
     
 
+  }
+  input{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
   }
 
   .heart {
@@ -28,6 +33,7 @@ body{
     width: 50px;
     transform: rotate(-45deg) scale(3);
     z-index: 2;
+    
 
   }
   .heart:after {
