@@ -1,6 +1,8 @@
 
 body{
   background-color: pink;
+  display: grid;
+
 }
   .back {
     position: fixed;
