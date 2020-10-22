@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>MadLibs</title>
+  <script src="app.js"></script>
 </head>
 <body>
   <div class="back">
@@ -17,33 +18,38 @@
 
   
          
-    <input type="text" placeholder="thing" name="thing">
+    <input type="text" placeholder="thing" name="thing" id='thingOne'>
     
-    <input type="text " placeholder="phrase" name="phrase">
+    <input type="text" placeholder="color" name="color" id='color'>
+   
+    
+    
+    <input type="text " placeholder="phrase" name="phrase" id='phrase'>
   
   
-    <input type="text " placeholder="adjective" name="adjective">
-  
- 
-    <input type="text " placeholder="person" name="person">
-  
-  
-    <input type="text " placeholder="verb ending in ing" name="verb ending in ing">
+    <input type="text " placeholder="adjective" name="adjective" id='adj'>
   
  
-    <input type="text" placeholder="silly word" name="silly word">
+    <input type="text " placeholder="person" name="person" id='person'>
+  
+  
+    <input type="text " placeholder="verb ending in ing" name="verb ending in ing" id='verb'>
+  
+ 
+    <input type="text" placeholder="silly word" name="silly word" id='silly'>
   
    
-    <input type="text " placeholder="place" name="place">
+    <input type="text " placeholder="place" name="place" id='place'>
+    
+    <input type="text " placeholder="things" name="things" id='things'>
   
 
-    <input type="text " placeholder="animal" name="animal">
+    <input type="text " placeholder="animal" name="animal" id='animal'>
   
+   
+    <button type="submit" onClick="createParagraph()">submit</button>
   
-  <p> Today I went to with .
-      While we were there, we came across the cutest balloon animal . 
-      His name was and we instantly became best friends because we both love and . 
-      While talking about , we both even said '' at the same time. Jinx! </p>
     </div>
+    <div id = "answer"></div>
 </body>
 </html>
